@@ -1,13 +1,12 @@
 package LearningRestAssured.br.com.simplez;
 
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 
-import static io.restassured.RestAssured.get;
-
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.hasItems;
 
 public class NewJSONTests {
@@ -29,7 +28,7 @@ public class NewJSONTests {
                 .accept(ContentType.JSON)
                 .body("{\"name\": \"Adriano Chaves\",\"avatar\": \"https://s3.amazonaws.com/uifaces/faces/twitter/ninjad3m0/128.jpg\"}")
                 .when()
-                .put(ROOT_URI + "/user/8");
+                .put(ROOT_URI + "/user/1");
         System.out.println("PUT Response\n" + response.asString());
         // tests
         response.then().body("id", Matchers.is("8"));
@@ -48,6 +47,17 @@ public class NewJSONTests {
         System.out.print("Response is -->\n" + response.asString());
 
         response.then().body("name", Matchers.is("Adriano Chaves"));
+    }
+
+    @Test
+    public void delete_test() {
+        Response response = delete(ROOT_URI + "/user/8");
+        System.out.println(response.asString());
+        System.out.println(response.getStatusCode());
+        // check if id=8 is deleted
+        response = get(ROOT_URI + "/user");
+        System.out.println(response.asString());
+        response.then().body("id", Matchers.not(8));
     }
 }
 
