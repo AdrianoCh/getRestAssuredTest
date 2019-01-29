@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c835388c-2e85-46ad-9505-80901e3e641b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LearningRestAssured/br/com/simplez/NewJSONTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearningRestAssured/br/com/simplez/NewJSONTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LearningRestAssured/br/com/simplez/NewJSONTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LearningRestAssured/br/com/simplez/NewJSONTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LearningRestAssured/br/com/simplez/NewJSONTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="283">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,7 +119,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548777800239" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548783249701" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -165,6 +167,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewJSONTests.put_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="br.com.simplez" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LearningRestAssured.br.com.simplez.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LearningRestAssured.br.com.simplez" />
+      <option name="MAIN_CLASS_NAME" value="LearningRestAssured.br.com.simplez.NewJSONTests" />
+      <option name="METHOD_NAME" value="put_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="br.com.simplez" />
       <extension name="coverage">
@@ -183,6 +201,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NewJSONTests" />
+        <item itemvalue="JUnit.NewJSONTests.put_test" />
         <item itemvalue="JUnit.TestHeader" />
         <item itemvalue="JUnit.JSONPostTest" />
       </list>
@@ -198,44 +217,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548768207026</updated>
-      <workItem from="1548768212153" duration="2438000" />
+      <workItem from="1548768212153" duration="6726000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JSONPostTest - 2019.01.29 at 11h 29m 47s.xml">
-      <configuration name="JSONPostTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHeader - 2019.01.29 at 11h 30m 10s.xml">
-      <configuration name="TestHeader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 34m 25s.xml">
+    <history-entry file="NewJSONTests - 2019.01.29 at 14h 29m 35s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 34m 48s.xml">
+    <history-entry file="NewJSONTests - 2019.01.29 at 14h 31m 44s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 36m 32s.xml">
+    <history-entry file="NewJSONTests - 2019.01.29 at 14h 33m 03s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 36m 33s.xml">
+    <history-entry file="NewJSONTests - 2019.01.29 at 14h 35m 07s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 37m 15s.xml">
+    <history-entry file="NewJSONTests - 2019.01.29 at 14h 55m 20s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 39m 55s.xml">
+    <history-entry file="NewJSONTests - 2019.01.29 at 14h 56m 31s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 44m 12s.xml">
+    <history-entry file="NewJSONTests - 2019.01.29 at 15h 01m 24s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewJSONTests - 2019.01.29 at 11h 44m 32s.xml">
+    <history-entry file="NewJSONTests_put_test - 2019.01.29 at 15h 01m 46s.xml">
+      <configuration name="NewJSONTests.put_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewJSONTests - 2019.01.29 at 15h 02m 16s.xml">
+      <configuration name="NewJSONTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewJSONTests - 2019.01.29 at 15h 02m 54s.xml">
       <configuration name="NewJSONTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2438000" />
+    <option name="totallyTimeSpent" value="6726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -302,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LearningRestAssured/br/com/simplez/NewJSONTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="283">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
